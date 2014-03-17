@@ -1,0 +1,21 @@
+		html,body{margin:0;padding:0;}
+		.content{position:relative;}
+		#webURL{margin: 0 0 0px 0px;}
+		.iFrame, iframe{border:none;outline:none;}
+		
+		#frames{width: 100%;max-width: 120%;height:100%;display: inline-block;}
+		.mobileLsIframe, .mobileRetIframe, .tabletIframe,.tabletLsIframe, .desktopIframe{display:none;}
+		.mobileIframe{padding: 145px 0 130px 65px;background:url(../img/iphone-4.png) 0 0 no-repeat;/* margin: 0 auto; */}
+		.mobileLsIframe{padding:35px 0 50px 155px;background:url(../img/iphone-4-ls.png) 0 0 no-repeat;}
+		.mobileRetIframe{padding:100px 0 120px 43px;background:url(../img/iphone-ret.png) 0 0 no-repeat;}
+		
+		.tabletIframe{padding: 129px 0 150px 46px; background:url(../img/ipadmini.png) 0 0 no-repeat;}
+		.tabletLsIframe{padding: 52px 0 50px 135px; background:url(../img/tablet-ls.png) 0 0 no-repeat;}
+		.desktopIframe{padding: 35px 0 150px 215px; background:url(../img/macbook.png) 0 0 no-repeat;}
+		
+		.mobileIframe iframe{width:320px;height:480px;}
+		.mobileLsIframe iframe{width:480px;height:320px;}
+		.mobileRetIframe iframe{width:320px;height:560px;-webkit-transform: scale(0.95);-moz-transform:scale(0.95);transform:scale(0.95);}
+		.tabletIframe iframe{width:780px;height:1035px;}
+		.tabletLsIframe iframe{width:1024px;height:780px;}
+		.desktopIframe iframe{width:1120px;height:705px;-webkit-transform: scale(0.95);-moz-transform:scale(0.95);transform:scale(0.95);}
