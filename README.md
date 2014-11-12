@@ -3,7 +3,7 @@
 A light weight open-source responsive design testing tool built upon jquery.
 
 ## See it in Action
- <http://www.scaledrop.com/>
+ <http://www.scaledrop.com/test>
 
 ## Usage Guide
 It is for everyone (designers or developers) who wants to know how their website will look like on modern popular digital devices ie- smartphone, tablet as well as your personal computer. However it is recommended to test web applications on real devices to get more accurate results.
